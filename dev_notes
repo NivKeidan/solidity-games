@@ -1,0 +1,14 @@
+setup env:
+install ganache-cli and turffle
+
+running:
+run ganache - starts a local ethereum network
+update truffle-config
+truffle deploy - deploy contract
+
+to interact:
+let accounts = await web3.eth.getAccounts()
+let c = await NivContract.deployed()
+
+other dev stuff:
+check out migrations and test
